@@ -1,1 +1,12 @@
-Put your Project 5 brief explanation, as directed, here.
+For this project, I am accessing the Tumblr API and gathering posts from two different blogs - Forbes and Rolling Stones.
+
+-The Forbes search will return the 50 most recent posts. For each post I will be accessing the title, short_url, date posted, and the unique post ID number.
+
+-The Rollings Stones search returns 20 posts that include “Led Zeppelin” as one of its tags. For each of these posts, I will be accessing the post summary, short_url, date posted, and number of tags.
+
+Data in the two csv files (forbes.csv and rolling_stone.csv will include four columns for each search, including all of the information mentioned above. The only difference is the last column - id # of post for Forbes and # of tags for each post for Rolling Stone. 
+
+API url: https://www.tumblr.com/docs/en/api/v2#posts 
+API Authentication url: https://www.tumblr.com/docs/en/api/v2#auth
+
+
